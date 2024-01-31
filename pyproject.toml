@@ -22,17 +22,10 @@ classifiers = [
 
 dependencies = [
     "pytest",
+    "numpy",
 ]
-
-[project.scripts]
 
 [project.urls]
 homepage = "https://github.com/ssciwr-courses/publish-example"  # FIXME not shown by pip
 documentation = "https://github.com/ssciwr-courses/publish-example"
-
-[tool.setuptools]
-packages = ["mypackage"]
-
-[tool.setuptools.package-data]
-# Include any png and csv files found in the "data" subdirectory of "ammico"
 
